@@ -48,21 +48,27 @@ As tecnologias utilizadas podem ser a escolha do participante, porém recomendam
 * Coordinators
 * MVVM ou MVC bem estruturado
 
+### Android
+* Kotlin
+* Retrofit
+* Architecture Components
+* Coroutines ou RxJava
+* Paw/Postman/Charles para testar API
+
 ## O que será avaliado:
 
 ### Principal
 * Colaboração através do GitHub. Abrindo Pull Requests para features isoladas no aplicativo, respondendo e resolvendo comentários e sugestões.
 * Seguir guidelines e padrões do sistema iOS/Android/Web;
 * Atenção com UX;
-* Estrutura e solução dos problemas
-* Lógica, modularização, organização, clareza de código e documentação
-
+* Estrutura e solução dos problemas;
+* Lógica, modularização, organização, clareza de código, escalabilidade e documentação;
+* Testes unitários de ao menos uma classe do projeto.
 
 ### Interessante: (não fundamental)
-* Layout customizado avançado. (Inspiração no nosso app é bem-vinda)
+* Layout customizado avançado. (Inspiração no nosso app é bem-vinda);
 * Arquitetura da solução;
-* Transições e animações customizadas.
-* Visualizar os objetivos enviados quando estiver offline.
+* Transições e animações customizadas;
 
 ## Links úteis:
 
