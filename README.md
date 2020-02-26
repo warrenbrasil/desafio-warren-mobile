@@ -16,10 +16,12 @@ Após a criação, resolver as tarefas e criar PRs para cada uma descrevendo o q
   Infos:
   
   POST https://enigmatic-bayou-48219.herokuapp.com/api/v2/account/login
-
+  BODY -> RAW -> JSON: 
+  Content-Type: application/json
+  
   {
-      "email": mobile_test@warrenbrasil.com,
-      "password": Warren123!
+      "email": "mobile_test@warrenbrasil.com",
+      "password": "Warren123!"
   }
   ```
 
