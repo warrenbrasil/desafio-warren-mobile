@@ -1,0 +1,11 @@
+xcassets:
+  inputs: App/Resources/Media.xcassets
+  outputs:
+    - templateName: swift4
+      output: App/Resources/Generated/Assets.swift
+      
+strings:
+  inputs: App
+  outputs:
+    - templateName: structured-swift4
+      output: App/Resources/Generated/Strings.swift
