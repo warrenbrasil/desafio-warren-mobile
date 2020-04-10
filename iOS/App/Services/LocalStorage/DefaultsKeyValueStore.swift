@@ -8,9 +8,9 @@
 
 import Foundation
 
-public final class DefaultsKeyValueStore {
+final class DefaultsKeyValueStore {
     
-    public static let shared = DefaultsKeyValueStore(userDefaults: .standard)
+    static let shared = DefaultsKeyValueStore(userDefaults: .standard)
     
     private let userDefaults: UserDefaults
     

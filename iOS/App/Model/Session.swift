@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Session: Codable {
+struct Session: Codable, Equatable {
     let accessToken: String?
     let refreshToken: String?
 }

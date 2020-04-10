@@ -10,7 +10,8 @@ import Foundation
 
 final class SessionService: SessionManaging {
     
-    private(set) static var shared: SessionService!
+    static let shared = SessionService(remoteService: RequestManager(),
+                                       localStorageService: DefaultsKeyValueStore.shared)
     
     private(set) var session: Session?
     
@@ -32,6 +33,7 @@ final class SessionService: SessionManaging {
             switch result {
             case .success(let session):
                 self.session = session
+                completion(true)
                 onBackgroundQueue { self.localStorageService.localSession = session }
             case .failure: completion(false)
             }

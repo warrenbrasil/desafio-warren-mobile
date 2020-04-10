@@ -8,9 +8,7 @@
 
 import Foundation
 
-public final class RequestManager {
-    
-    public static let shared = RequestManager()
+final class RequestManager {
     
     enum Error: Swift.Error {
         case invalidCredentials

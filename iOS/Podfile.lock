@@ -2,24 +2,32 @@ PODS:
   - Alamofire (4.9.1)
   - AlamofireImage (3.6.0):
     - Alamofire (~> 4.9)
+  - Nimble (8.0.7)
+  - Quick (2.2.0)
   - SwiftGen (6.1.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.8)
   - AlamofireImage (~> 3.5)
+  - Nimble
+  - Quick
   - SwiftGen
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - AlamofireImage
+    - Nimble
+    - Quick
     - SwiftGen
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  Nimble: a73af6ecd4c9106f434f3d55fc54570be3739e0b
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
   SwiftGen: f872ca75cbd17bf7103c17f13dcfa0d9a15667b0
 
-PODFILE CHECKSUM: 2838f9c2a9554f1c05bdeb73cc7d949b5cc63e7b
+PODFILE CHECKSUM: ef6c537b52b60e92d617e9a7cf60e35f24d50645
 
 COCOAPODS: 1.9.1

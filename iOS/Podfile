@@ -1,9 +1,15 @@
 platform :ios, '13.2'
-use_frameworks!
 inhibit_all_warnings!
 
 target 'App' do
     pod 'Alamofire', '~> 4.8'
     pod 'AlamofireImage', '~> 3.5'
     pod 'SwiftGen'
+    
+    target 'AppTests' do
+      inherit! :search_paths
+
+      pod 'Quick'
+      pod 'Nimble'
+    end
 end
