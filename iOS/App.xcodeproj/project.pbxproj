@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		169720D22440A52300FD8216 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169720D12440A52300FD8216 /* RequestManager.swift */; };
+		169B30032440A5B300F0DB55 /* RequestManager+SessionRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169B30022440A5B300F0DB55 /* RequestManager+SessionRemoteService.swift */; };
+		169B30062440A76400F0DB55 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169B30052440A76400F0DB55 /* Server.swift */; };
 		169FAAA1243EA5AA00645CBF /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAA9D243EA5AA00645CBF /* AppNavigationController.swift */; };
 		169FAAA3243EA5AA00645CBF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAAA0243EA5AA00645CBF /* MainViewController.swift */; };
 		169FAABC243EA72300645CBF /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAAA5243EA72300645CBF /* UIImageViewExtension.swift */; };
@@ -30,6 +33,14 @@
 		169FAACE243EA72300645CBF /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAAB8243EA72300645CBF /* StoryboardInstantiable.swift */; };
 		169FAACF243EA72300645CBF /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAABA243EA72300645CBF /* ViewState.swift */; };
 		169FAAD0243EA72300645CBF /* ServerAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAABB243EA72300645CBF /* ServerAPIError.swift */; };
+		169FAAD3243EB09B00645CBF /* SessionManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAAD2243EB09B00645CBF /* SessionManaging.swift */; };
+		169FAAD5243EB0AD00645CBF /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAAD4243EB0AD00645CBF /* Session.swift */; };
+		169FAAD8243EB2D300645CBF /* SessionRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAAD7243EB2D300645CBF /* SessionRemoteService.swift */; };
+		169FAADA243EB39300645CBF /* KeyValueStoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAAD9243EB39300645CBF /* KeyValueStoring.swift */; };
+		169FAADC243EB4AA00645CBF /* DefaultsKeyValueStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAADB243EB4AA00645CBF /* DefaultsKeyValueStore.swift */; };
+		169FAAE2243EB59800645CBF /* SessionStoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAAE1243EB59800645CBF /* SessionStoring.swift */; };
+		169FAAE5243EB63B00645CBF /* DefaultsKeyValueStore+SessionStoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAAE4243EB63B00645CBF /* DefaultsKeyValueStore+SessionStoring.swift */; };
+		169FAAE8243EBA3900645CBF /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169FAAE7243EBA3900645CBF /* SessionService.swift */; };
 		16D9CB89243EA3A000471EC5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D9CB88243EA3A000471EC5 /* Media.xcassets */; };
 		16D9CB8C243EA3B700471EC5 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9CB8A243EA3B700471EC5 /* Assets.swift */; };
 		16D9CB8D243EA3B700471EC5 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D9CB8B243EA3B700471EC5 /* Strings.swift */; };
@@ -51,6 +62,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		169720D12440A52300FD8216 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		169B30022440A5B300F0DB55 /* RequestManager+SessionRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RequestManager+SessionRemoteService.swift"; sourceTree = "<group>"; };
+		169B30052440A76400F0DB55 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		169FAA9D243EA5AA00645CBF /* AppNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
 		169FAAA0243EA5AA00645CBF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		169FAAA5243EA72300645CBF /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
@@ -74,6 +88,14 @@
 		169FAAB8243EA72300645CBF /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 		169FAABA243EA72300645CBF /* ViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
 		169FAABB243EA72300645CBF /* ServerAPIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerAPIError.swift; sourceTree = "<group>"; };
+		169FAAD2243EB09B00645CBF /* SessionManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManaging.swift; sourceTree = "<group>"; };
+		169FAAD4243EB0AD00645CBF /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		169FAAD7243EB2D300645CBF /* SessionRemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRemoteService.swift; sourceTree = "<group>"; };
+		169FAAD9243EB39300645CBF /* KeyValueStoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueStoring.swift; sourceTree = "<group>"; };
+		169FAADB243EB4AA00645CBF /* DefaultsKeyValueStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsKeyValueStore.swift; sourceTree = "<group>"; };
+		169FAAE1243EB59800645CBF /* SessionStoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStoring.swift; sourceTree = "<group>"; };
+		169FAAE4243EB63B00645CBF /* DefaultsKeyValueStore+SessionStoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DefaultsKeyValueStore+SessionStoring.swift"; sourceTree = "<group>"; };
+		169FAAE7243EBA3900645CBF /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
 		16D9CB88243EA3A000471EC5 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		16D9CB8A243EA3B700471EC5 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		16D9CB8B243EA3B700471EC5 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
@@ -109,6 +131,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		169B30042440A73600F0DB55 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				169B30052440A76400F0DB55 /* Server.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		169FAA99243EA51C00645CBF /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,15 +218,89 @@
 		169FAAB9243EA72300645CBF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				169FAAD1243EB08200645CBF /* Services */,
 				169FAABA243EA72300645CBF /* ViewState.swift */,
 				169FAABB243EA72300645CBF /* ServerAPIError.swift */,
+				169FAAD4243EB0AD00645CBF /* Session.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		169FAAD1243EB08200645CBF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				169FAAE0243EB56400645CBF /* Domain */,
+				169FAADF243EB55700645CBF /* Networking */,
+				169FAADE243EB54A00645CBF /* LocalStorage */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		169FAAD6243EB12400645CBF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				169FAAE9243EBD3100645CBF /* Networking */,
+				169FAAE6243EB9EF00645CBF /* Domain */,
+				169FAAE3243EB61400645CBF /* LocalStorage */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		169FAADE243EB54A00645CBF /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				169FAAD9243EB39300645CBF /* KeyValueStoring.swift */,
+				169FAAE1243EB59800645CBF /* SessionStoring.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		169FAADF243EB55700645CBF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				169FAAD7243EB2D300645CBF /* SessionRemoteService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		169FAAE0243EB56400645CBF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				169FAAD2243EB09B00645CBF /* SessionManaging.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		169FAAE3243EB61400645CBF /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				169FAADB243EB4AA00645CBF /* DefaultsKeyValueStore.swift */,
+				169FAAE4243EB63B00645CBF /* DefaultsKeyValueStore+SessionStoring.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		169FAAE6243EB9EF00645CBF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				169FAAE7243EBA3900645CBF /* SessionService.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		169FAAE9243EBD3100645CBF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				169720D12440A52300FD8216 /* RequestManager.swift */,
+				169B30022440A5B300F0DB55 /* RequestManager+SessionRemoteService.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		16D9CB86243EA32C00471EC5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				169B30042440A73600F0DB55 /* Config */,
 				16D9CB87243EA33400471EC5 /* Generated */,
 				16D9CB88243EA3A000471EC5 /* Media.xcassets */,
 				332C228023FEBCE1007823E5 /* Assets.xcassets */,
@@ -237,10 +341,11 @@
 		332C227923FEBCE0007823E5 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				16D9CB86243EA32C00471EC5 /* Resources */,
 				169FAAA4243EA72300645CBF /* Extension */,
 				169FAAB0243EA72300645CBF /* Helper */,
 				169FAAB9243EA72300645CBF /* Model */,
-				16D9CB86243EA32C00471EC5 /* Resources */,
+				169FAAD6243EB12400645CBF /* Services */,
 				169FAA99243EA51C00645CBF /* Scenes */,
 			);
 			path = App;
@@ -448,20 +553,31 @@
 				169FAACF243EA72300645CBF /* ViewState.swift in Sources */,
 				169FAABD243EA72300645CBF /* DataRequestExtension.swift in Sources */,
 				169FAACD243EA72300645CBF /* NibInstantiatable.swift in Sources */,
+				169FAAE8243EBA3900645CBF /* SessionService.swift in Sources */,
 				169FAAD0243EA72300645CBF /* ServerAPIError.swift in Sources */,
 				16D9CB8D243EA3B700471EC5 /* Strings.swift in Sources */,
 				169FAAC2243EA72300645CBF /* UIViewControllerExtension.swift in Sources */,
+				169FAADA243EB39300645CBF /* KeyValueStoring.swift in Sources */,
+				169FAAD8243EB2D300645CBF /* SessionRemoteService.swift in Sources */,
+				169B30032440A5B300F0DB55 /* RequestManager+SessionRemoteService.swift in Sources */,
 				169FAAC9243EA72300645CBF /* NibRegistrableView.swift in Sources */,
+				169B30062440A76400F0DB55 /* Server.swift in Sources */,
 				169FAAC6243EA72300645CBF /* DateExtension.swift in Sources */,
 				169FAAC3243EA72300645CBF /* UIViewExtension.swift in Sources */,
 				16D9CB8C243EA3B700471EC5 /* Assets.swift in Sources */,
+				169FAADC243EB4AA00645CBF /* DefaultsKeyValueStore.swift in Sources */,
 				169FAAC4243EA72300645CBF /* DataExtension.swift in Sources */,
 				169FAACC243EA72300645CBF /* RequestHelper.swift in Sources */,
 				169FAAC7243EA72300645CBF /* AppColors.swift in Sources */,
+				169FAAE5243EB63B00645CBF /* DefaultsKeyValueStore+SessionStoring.swift in Sources */,
+				169720D22440A52300FD8216 /* RequestManager.swift in Sources */,
+				169FAAD5243EB0AD00645CBF /* Session.swift in Sources */,
 				169FAABF243EA72300645CBF /* AlamofireExtension.swift in Sources */,
+				169FAAE2243EB59800645CBF /* SessionStoring.swift in Sources */,
 				169FAACB243EA72300645CBF /* Utils.swift in Sources */,
 				169FAACA243EA72300645CBF /* DispatchQueueExtension.swift in Sources */,
 				169FAAA3243EA5AA00645CBF /* MainViewController.swift in Sources */,
+				169FAAD3243EB09B00645CBF /* SessionManaging.swift in Sources */,
 				169FAACE243EA72300645CBF /* StoryboardInstantiable.swift in Sources */,
 				169FAAC5243EA72300645CBF /* CodableExtension.swift in Sources */,
 			);

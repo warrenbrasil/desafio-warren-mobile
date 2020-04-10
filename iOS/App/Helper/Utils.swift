@@ -55,4 +55,6 @@ struct Utils {
         return String(str[..<str.index(str.endIndex, offsetBy: -5)])
     }
     
+    static let defaultJSONDecoder = JSONDecoder()
+    static let defaultJSONEncoder = JSONEncoder()
 }

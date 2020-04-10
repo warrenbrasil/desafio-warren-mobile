@@ -10,9 +10,13 @@ import Foundation
 
 extension Data {
     
-    func decodeJSON() -> [String: Any]? {
+    func decodeJSONDictionary() -> [String: Any]? {
         let jsonObject = try? JSONSerialization.jsonObject(with: self, options: .allowFragments)
         return jsonObject as? [String: Any]
+    }
+    
+    func decodeJSON<T>(using decoder: JSONDecoder = Utils.defaultJSONDecoder) throws -> T where T: Decodable {
+        return try decoder.decode(T.self, from: self)
     }
     
     static func fromURL(_ url: URL) -> Data? {
@@ -23,3 +27,4 @@ extension Data {
         }
     }
 }
+

@@ -61,7 +61,7 @@ class RequestHelper {
     
     private func processError(_ error: Error, bodyData: Data? = nil) -> Error {
         var finalError = error
-        let responseBodyData = bodyData?.decodeJSON() ?? [:]
+        let responseBodyData = bodyData?.decodeJSONDictionary() ?? [:]
         
         if let error = error as? AFError,
             case .responseValidationFailed(let reason) = error,
