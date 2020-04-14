@@ -39,11 +39,11 @@ Após a criação, resolver as tarefas e criar PRs para cada uma descrevendo o q
 * Exibir as informações do objetivo selecionado
 
 ## Tecnologias
-As tecnologias utilizadas podem ser a escolha do participante, porém recomendamos algumas que usamos aqui (assim você ja vai estar por dentro do nosso estilo!)
+Recomendamos algumas tecnologias que usamos aqui na Warren (assim você ja vai estar por dentro do nosso estilo!). Se você optar por alguma diferente das recomendadas justifique no PR o motivo.
 
 ### iOS
 * Swift
-* UIKit (Uma das features pode ser SwiftUI)
+* UIKit, SwiftUI e Combine
 * SPM Modules
 * Moya/Alamofire
 * View Code (Sem storyboard / XIB)
