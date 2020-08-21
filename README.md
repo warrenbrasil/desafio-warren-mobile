@@ -55,8 +55,8 @@ Recomendamos algumas tecnologias que usamos aqui na Warren (assim você ja vai e
 * Kotlin
 * Retrofit
 * Architecture Components
-* Coroutines ou RxJava
-* Paw/Postman/Charles para testar API
+* Coroutines
+* Injeção de dependências
 
 ## O que será avaliado:
 
