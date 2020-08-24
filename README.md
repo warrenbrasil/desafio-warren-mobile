@@ -43,7 +43,7 @@ Recomendamos algumas tecnologias que usamos aqui na Warren (assim você ja vai e
 
 ### iOS
 * Swift
-* UIKit, SwiftUI e Combine
+* SwiftUI e Combine
 * SPM Modules
 * Moya/Alamofire
 * View Code (Sem storyboard / XIB)
@@ -66,7 +66,7 @@ Recomendamos algumas tecnologias que usamos aqui na Warren (assim você ja vai e
 * Atenção com UX;
 * Estrutura e solução dos problemas;
 * Lógica, modularização, organização, clareza de código, escalabilidade e documentação;
-* Testes unitários de ao menos uma classe do projeto.
+* Testes unitários de parte do projeto.
 
 ### Interessante: (não fundamental)
 * Layout customizado avançado. (Inspiração no nosso app é bem-vinda);
