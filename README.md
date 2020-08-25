@@ -49,7 +49,7 @@ Recomendamos algumas tecnologias que usamos aqui na Warren (assim você ja vai e
 * View Code (Sem storyboard / XIB)
 * Paw/Postman/Charles para testar API
 * Coordinators
-* MVVM ou MVC bem estruturado
+* Swift Composable Architecture (https://github.com/pointfreeco/swift-composable-architecture) ou MVVM.
 
 ### Android
 * Kotlin
