@@ -61,9 +61,9 @@ Recomendamos algumas tecnologias que usamos aqui na Warren (assim você ja vai e
 ## O que será avaliado:
 
 ### Principal
+* Atenção com UI/UX (Isso é muuuito importante pra gente! Nossos apps são recomendados como inspiração);
 * Colaboração através do GitHub. Abrindo Pull Requests para features isoladas no aplicativo, respondendo e resolvendo comentários e sugestões.
 * Seguir guidelines e padrões do sistema iOS/Android/Web;
-* Atenção com UX;
 * Estrutura e solução dos problemas;
 * Lógica, modularização, organização, clareza de código, escalabilidade e documentação;
 * Testes unitários de parte do projeto.
