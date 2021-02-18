@@ -24,7 +24,7 @@ let package = Package(
                 "RootElements",
 
                 // MARK: Core modules
-                "CoreServices",
+                "CoreProviders",
 
                 // MARK: Features modules
                 "FeatureLogin",
@@ -74,7 +74,7 @@ let package = Package(
         /// This module contains the all the functionality that connects to an external service.
         /// Like API calls, Endpoints, Keychain etc.
         .target(
-            name: "CoreServices",
+            name: "CoreProviders",
             dependencies: [
                 "RootElements",
                 "KeychainAccess",
@@ -82,9 +82,9 @@ let package = Package(
             ]
         ),
         .testTarget(
-            name: "CoreServices-Tests",
+            name: "CoreProviders-Tests",
             dependencies: [
-                "CoreServices"
+                "CoreProviders"
             ]
         ),
 
@@ -92,7 +92,7 @@ let package = Package(
         .target(
             name: "FeatureLogin",
             dependencies: [
-                "CoreServices"
+                "CoreProviders"
             ]
         ),
         .testTarget(
