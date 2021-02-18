@@ -37,11 +37,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/chrisaljoudi/swift-log-oslog.git",
-            from: "0.2.1"
+            from: "0.2.2"
         ),
         .package(
             url: "https://github.com/kishikawakatsumi/KeychainAccess.git",
-            from: "4.1.0"
+            from: "4.2.1"
         ),
         .package(
             url: "https://github.com/pointfreeco/swift-tagged.git",
