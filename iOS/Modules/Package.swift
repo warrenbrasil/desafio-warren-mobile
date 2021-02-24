@@ -24,7 +24,7 @@ let package = Package(
                 "RootElements",
 
                 // MARK: Core modules
-                "CoreServices",
+                "CoreProviders",
 
                 // MARK: Features modules
                 "FeatureLogin",
@@ -37,11 +37,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/chrisaljoudi/swift-log-oslog.git",
-            from: "0.2.1"
+            from: "0.2.2"
         ),
         .package(
             url: "https://github.com/kishikawakatsumi/KeychainAccess.git",
-            from: "4.1.0"
+            from: "4.2.1"
         ),
         .package(
             url: "https://github.com/pointfreeco/swift-tagged.git",
@@ -74,7 +74,7 @@ let package = Package(
         /// This module contains the all the functionality that connects to an external service.
         /// Like API calls, Endpoints, Keychain etc.
         .target(
-            name: "CoreServices",
+            name: "CoreProviders",
             dependencies: [
                 "RootElements",
                 "KeychainAccess",
@@ -82,9 +82,9 @@ let package = Package(
             ]
         ),
         .testTarget(
-            name: "CoreServices-Tests",
+            name: "CoreProviders-Tests",
             dependencies: [
-                "CoreServices"
+                "CoreProviders"
             ]
         ),
 
@@ -92,7 +92,7 @@ let package = Package(
         .target(
             name: "FeatureLogin",
             dependencies: [
-                "CoreServices"
+                "CoreProviders"
             ]
         ),
         .testTarget(
