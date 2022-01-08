@@ -4,8 +4,9 @@ Chegou a hora de você conhecer um pouquinho sobre os desafios enfrentamos e as 
 Você terá o prazo de 1 semana para a entrega, que deve ser realizada por etapas, pois parte importante do projeto é a colaboração e resposta aos comentários/sugestões.
 
 ## Entrega
-Usar esse repositório como um template para a criação de um repositório *privado* no GitHub e adicionar `@robuske` (para iOS) ou `@pablobaldez` (para Android) como colaborador. 
-`https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template`
+[Usar esse repositório como um template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) para a criação de um repositório *privado* no GitHub.
+Se for para iOS adicionar como colaborador quem entre os seguintes participou da sua entrevista: `@albertkolberg`, `@pedroullmann`, `@pedrosv20`, `@robuske`.
+Se for para Android adicionar como colaborador `@pablobaldez`.
 
 Após a criação, resolver as tarefas e criar PRs para cada uma descrevendo o que foi feito para review.
 
