@@ -8,7 +8,7 @@ Usar esse repositório como [um template](https://help.github.com/en/github/crea
 
 Se for iOS adicionar como colaborador quem entre os seguintes participou da sua entrevista: `@albertkolberg`, `@pedroullmann`, `@pedrosv20`, `@robuske`.
 
-Se for Android adicionar como colaborador `@pablobaldez`.
+Se for Android adicionar como colaborador quem entre os seguintes participou da sua entrevista: `@diegocunhawarren`, `@rafaeldecker`, `@kassiano`, `@joao-ribeiro-warren`.
 
 Após a criação, resolver as tarefas e criar PRs para cada uma descrevendo o que foi feito para review.
 
