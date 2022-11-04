@@ -6,7 +6,7 @@ Você terá o prazo de 1 semana para a entrega, que deve ser realizada por etapa
 ## Entrega
 Usar esse repositório como [um template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) para a criação de um repositório **privado** no GitHub.
 
-Se for iOS adicionar como colaborador quem entre os seguintes participou da sua entrevista: `@albertkolberg`, `@pedroullmann`, `@pedrosv20`, `@robuske`.
+Se for iOS adicionar como colaborador quem entre os seguintes participou da sua entrevista: `@pedroullmann`, `@pedrosv20`.
 
 Se for Android adicionar como colaborador quem entre os seguintes participou da sua entrevista: `@diegocunhawarren`, `@rafaeldecker`, `@kassiano`, `@joao-ribeiro-warren`.
 
