@@ -6,7 +6,7 @@ Você terá o prazo de 1 semana para a entrega, que deve ser realizada por etapa
 ## Entrega
 Usar esse repositório como [um template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) para a criação de um repositório **privado** no GitHub.
 
-Se for iOS adicionar como colaborador quem entre os seguintes participou da sua entrevista: `@albertkolberg`, `@pedroullmann`, `@pedrosv20`, `@robuske`.
+Se for iOS adicionar como colaborador quem participou da sua entrevista: `@pedroullmann` e `@pedrosv20`.
 
 Se for Android adicionar como colaborador quem entre os seguintes participou da sua entrevista: `@diegocunhawarren`, `@rafaeldecker`, `@kassiano`, `@joao-ribeiro-warren`.
 
@@ -51,7 +51,6 @@ Recomendamos algumas tecnologias que usamos aqui na Warren (assim você ja vai e
 * Moya/Alamofire
 * View Code (Sem storyboard / XIB)
 * Paw/Postman/Charles para testar API
-* Coordinators
 * Swift Composable Architecture (https://github.com/pointfreeco/swift-composable-architecture) ou MVVM.
 
 ### Android

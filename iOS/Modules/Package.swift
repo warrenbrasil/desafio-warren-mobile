@@ -1,21 +1,9 @@
-// swift-tools-version:5.1
-
-/**
- This Package defines the modular architecture used by our app.
-
- Note: A Feature module can import Core, Root and Dependencies modules. And can't import other Feature modules or even the App module.
-
- App -> Features -> Core -> Root -> Dependencies
-
-*/
-
+// swift-tools-version:5.6
 import PackageDescription
 
 let package = Package(
     name: "Modules",
-    platforms: [
-        .iOS(.v13)
-    ],
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "Modules",
@@ -36,16 +24,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/chrisaljoudi/swift-log-oslog.git",
-            from: "0.2.2"
-        ),
-        .package(
             url: "https://github.com/kishikawakatsumi/KeychainAccess.git",
             from: "4.2.1"
-        ),
-        .package(
-            url: "https://github.com/pointfreeco/swift-tagged.git",
-            from: "0.5.0"
         ),
         .package(
             url: "https://github.com/Moya/Moya.git",
@@ -59,10 +39,7 @@ let package = Package(
         /// Like UserDefaults components, Container ViewControllers, etc.
         .target(
             name: "RootElements",
-            dependencies: [
-                "LoggingOSLog",
-                "Tagged"
-            ]
+            dependencies: []
         ),
         .testTarget(
             name: "RootElements-Tests",
