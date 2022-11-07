@@ -1,6 +1,14 @@
 // swift-tools-version:5.6
 import PackageDescription
 
+/**
+ This Package defines the modular architecture used by our app.
+
+ Note: A Feature module can import Core, Root and Dependencies modules. And can't import other Feature modules or even the App module.
+
+ App -> Features -> Core -> Root -> Dependencies
+*/
+
 let package = Package(
     name: "Modules",
     platforms: [.iOS(.v14)],
